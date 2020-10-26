@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+
+
+}
+img{
+    width: 100%;
+    max-width: 100%;
+}
+.logo{
+    float: left;
+    width:424px;
+    padding: 8px;
+}
+.adv{
+    float: right;
+    width: 541px;
+    padding: 20px;
+}
+.adv img{
+   
+}
+
+
+
+.main-container{
+    width: 1170px;
+ 
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+#main-header{
+    background: blanchedalmond;
+}
+.logo-adv{
+    overflow: hidden;
+}
+nav{
+    background: #0e1225;
+    border-bottom: 3px solid #222c83;
+}
+
+
+.main-manu{background: #364382;}
+.main-manu ul{list-style: none;}
+.main-manu ul li{
+    float: left;
+}
+.main-manu ul li a{
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500px;
+    
+}
+.main-manu ul li a:hover{
+    background: #3b3a72;
+
+}
+
+
+
+
+
+
+
+
+
+.copyright{
+    background: #0e1225;
+    color: wheat;
+    text-align: center;
+    font-size: 14px;
+    padding: 15px;
+}
+#footer{ 
+    background: #4e578c;
+    overflow: hidden;
+   
+
+}
+.footer-blocks{
+    padding: 20px 0px;
+    overflow: hidden;
+}
+.fblock{
+    width: 360px;
+    float: left;
+    margin: 0px 15px;
+}
+#footer .footer-blocks .fblock h2{
+    font-size: 15px;
+    color: white;
+    border-bottom: 1px solid #767da5;
+}
+#footer .footer-blocks .fblock .links .footerul{
+    list-style: none;
+    margin-top: 10px;
+    
+}
+#footer .footer-blocks .fblock .links .footerul li{
+
+
+}
+#footer .footer-blocks .fblock .links .footerul li a{
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+}
+#footer .footer-blocks .fblock .links .footerul li a:hover{
+    text-decoration: underline;
+}
+
+
+.saitbar{
+    height: 300px;
+    width: 300px;
+    background: #0e1225;
+    
+}
+.about-logo img{
+    width: 320px;
+    height: auto;
+    padding: 20px 95px;
+}
+.about-text{
+    width: 720px;
+    height: auto;
+    padding: 20px 20px;
+}
+
+.row{
+    overflow: auto;
+}
+.col{
+    float: left;
+}
+.About-section{
+    background: antiquewhite;
+}
